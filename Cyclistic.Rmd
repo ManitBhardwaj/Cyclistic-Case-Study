@@ -45,7 +45,6 @@ conflict_prefer("lag", "dplyr")
 Upload Divvy datasets (csv files) here
 
 ```{r}
-setwd('C:/Users/bhard/OneDrive/Documents/Cyclistic-CaseStudy/Data_2019_2020')
 q1_2019 <- read_csv("Divvy_Trips_2019_Q1.csv")
 q1_2020 <- read_csv("Divvy_Trips_2020_Q1.csv")
 ```
